@@ -1,0 +1,29 @@
+{
+  "name": "orangehrm-playwright-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:dashboard": "playwright test tests/dashboard.spec.ts",
+    "test:myInfo": "playwright test tests/myInfo.spec.ts",
+    "test:e2e": "playwright test tests/e2e.spec.ts",
+    "test:pim": "playwright test tests/pim.spec.ts"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1",
+    "typescript": "^6.0.3"
+  }
+}
