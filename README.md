@@ -314,6 +314,61 @@ npx playwright test --headed
 
 ---
 
+## Run Individual Test Cases
+
+The following commands can be used to execute a specific test case instead of running the complete module.
+
+### Authentication Module
+
+| Test Case    | Command                                                     |
+| ------------ | ----------------------------------------------------------- |
+| TC_Login_001 | `npx playwright test tests/login.spec.ts -g "TC_Login_001"` |
+| TC_Login_002 | `npx playwright test tests/login.spec.ts -g "TC_Login_002"` |
+| TC_Login_003 | `npx playwright test tests/login.spec.ts -g "TC_Login_003"` |
+| TC_Login_004 | `npx playwright test tests/login.spec.ts -g "TC_Login_004"` |
+| TC_Login_005 | `npx playwright test tests/login.spec.ts -g "TC_Login_005"` |
+| TC_Login_006 | `npx playwright test tests/login.spec.ts -g "TC_Login_006"` |
+| TC_Login_007 | `npx playwright test tests/login.spec.ts -g "TC_Login_007"` |
+
+### Dashboard Module
+
+| Test Case        | Command                                                             |
+| ---------------- | ------------------------------------------------------------------- |
+| TC_Dashboard_001 | `npx playwright test tests/dashboard.spec.ts -g "TC_Dashboard_001"` |
+| TC_Dashboard_002 | `npx playwright test tests/dashboard.spec.ts -g "TC_Dashboard_002"` |
+| TC_Dashboard_003 | `npx playwright test tests/dashboard.spec.ts -g "TC_Dashboard_003"` |
+| TC_Dashboard_004 | `npx playwright test tests/dashboard.spec.ts -g "TC_Dashboard_004"` |
+| TC_Dashboard_005 | `npx playwright test tests/dashboard.spec.ts -g "TC_Dashboard_005"` |
+
+### My Info Module
+
+| Test Case     | Command                                                       |
+| ------------- | ------------------------------------------------------------- |
+| TC_MyInfo_001 | `npx playwright test tests/myInfo.spec.ts -g "TC_MyInfo_001"` |
+| TC_MyInfo_002 | `npx playwright test tests/myInfo.spec.ts -g "TC_MyInfo_002"` |
+| TC_MyInfo_003 | `npx playwright test tests/myInfo.spec.ts -g "TC_MyInfo_003"` |
+| TC_MyInfo_004 | `npx playwright test tests/myInfo.spec.ts -g "TC_MyInfo_004"` |
+| TC_MyInfo_005 | `npx playwright test tests/myInfo.spec.ts -g "TC_MyInfo_005"` |
+| TC_MyInfo_006 | `npx playwright test tests/myInfo.spec.ts -g "TC_MyInfo_006"` |
+
+### Personnel Information Management (PIM) Module
+
+| Test Case  | Command                                                 |
+| ---------- | ------------------------------------------------------- |
+| TC_PIM_001 | `npx playwright test tests/pim.spec.ts -g "TC_PIM_001"` |
+| TC_PIM_002 | `npx playwright test tests/pim.spec.ts -g "TC_PIM_002"` |
+| TC_PIM_003 | `npx playwright test tests/pim.spec.ts -g "TC_PIM_003"` |
+| TC_PIM_004 | `npx playwright test tests/pim.spec.ts -g "TC_PIM_004"` |
+| TC_PIM_005 | `npx playwright test tests/pim.spec.ts -g "TC_PIM_005"` |
+| TC_PIM_006 | `npx playwright test tests/pim.spec.ts -g "TC_PIM_006"` |
+
+### End-to-End Workflow
+
+| Test Case  | Command                                                 |
+| ---------- | ------------------------------------------------------- |
+| TC_E2E_001 | `npx playwright test tests/e2e.spec.ts -g "TC_E2E_001"` |
+
+
 ## Debug Tests
 
 ```bash
